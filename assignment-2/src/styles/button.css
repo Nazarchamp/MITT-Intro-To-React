@@ -1,0 +1,32 @@
+button{
+    height:46px;
+    width: 120px;
+    text-align:center;
+    background-color: #408dff;
+    border: 1px solid #408dff;
+    letter-spacing: .2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #0a55c4;
+}
+
+button + button{
+    margin-left: 20px;
+}
+
+button.secondary{
+    color: #408dff;
+    background-color: #fff;
+    border: 1px solid #408dff;
+}
+
+
+button.secondary:hover{
+    color: #fff;
+    background-color: #0a55c4;
+}

@@ -1,0 +1,37 @@
+.hero-banner{
+    width: 100%;
+    height: 600px;
+    background: url("../images/banner-back.jpg") center center / cover no-repeat;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.text-container{
+    width: 50vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    text-align: center;
+}
+
+.text-container h1{
+    font-size: min(calc(36px + (60 - 36) * ((100vw - 280px) / (1260 - 280))),60px);
+    font-weight: 600;
+}
+
+.text-container p{
+    font-size: min(calc(12px + (17 - 12) * ((100vw - 280px) / (1260 - 280))),17px);
+    margin: 20px 0;
+}
+

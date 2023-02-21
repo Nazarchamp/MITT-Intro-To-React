@@ -1,0 +1,33 @@
+button{
+    height:46px;
+    width: 120px;
+    text-align:center;
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    letter-spacing: .2px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: lightgrey;
+    border: 1px solid lightgrey;
+}
+
+button + button{
+    margin-left: 20px;
+}
+
+button.secondary{
+    color: darkgrey;
+    background-color: #fff;
+    border: 1px solid darkgrey;
+}
+
+
+button.secondary:hover{
+    color: #fff;
+    background-color: lightgrey;
+}

@@ -1,0 +1,21 @@
+.gallery{
+    width: 100%;
+    padding: 60px 0;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner-gallery{
+    width: 60vw;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.inner-gallery img{
+    width: 100%;
+    box-shadow: 5px 5px 10px #000;
+}
